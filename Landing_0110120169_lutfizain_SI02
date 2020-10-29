@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tugas Form</title>
+    </head>
+    <body>
+        <form action="daftar.html" autocomplete="on">
+        <table border="1" align="center" bgcolor="white">
+        <h1 align="center">Formulir pendaftaran mahasiswa</h1>
+        <tr>
+            <td>Nama</td>
+            <td><input type="text" NAME="nama" size="50" placeholder="Nama Lengkap"></td>
+            </tr>
+            <tr>
+            <td>Email</td>
+            <td><input type="text" NAME="Email" size="50" placeholder="Email"></td>
+            </tr>
+            <tr>
+            <td>Tempat Tanggal Lahir</td>
+            <td><input type="text" NAME="nama" size="10" placeholder="Tempat">
+            <form action="#">
+            <input type="date" name="Tanggal">
+            </form>
+            
+            </td>
+            </tr>
+            <tr>
+                <td>Alamat</td>
+                <td><input type="text" NAME="nama" size="50" placeholder="Alamat Lengkap"></td>>
+            </tr>
+            <tr>
+                <td>Jenis kelamin</td>
+            <td>
+                <input type="radio" name="sex" checked>pria<br>
+                <input type="radio" name="sex" checked>wanita<br>
+            </td>
+            </tr>
+        <tr>
+            <td>Agama</td>
+            <td>
+                <select name="Agama" placeholder="Agama">
+                    <option value="Agama" selected>Agama
+                    <option value="islam">islam
+                    <option value="kristen">Kristen
+                    <option value="hindu">hindu
+                    <option value="budha">budha
+                </select>
+            </td>
+        </tr>
+            <tr>
+                <td>Jurusan</td>
+                <td>
+                    <select name="Jurusan" placeholder="Jurusan">
+                        <option value="jurusan" selected>jurusan
+                        <option value="SI">Sistem Informasi
+                        <option value="TI">Teknik informatika
+                        <option value="DG">Desain Grafis
+                        <option value="kom">Komputer
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Pas Foto</td>
+                <td><input type="file"></td>
+            </tr>
+        </table>
+        <div>
+            <lable align="center">Alasan</lable>
+        <div>
+        <textarea name="Alasan" rows="4" cols="30"></textarea>
+        </div>
+        </div>
+        <br>
+        <table border="0" align="center">
+            <tr>
+                <td><input type="submit" value="Daftar" class="tomboldaftar"></td>
+            </tr> 
+        </table>
+    </form>
+    </body>
+</html>
